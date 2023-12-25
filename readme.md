@@ -51,9 +51,16 @@ To get OxapayBot running on your local machine, follow these steps:
 Start the bot by running:
 
 ```bash
-npm start
+npm start 
 ```
-
+or run in nodemon
+```bash
+npm dev
+```
+or run in production
+```bash
+npm pm2
+```
 Your OxapayBot should now be active on Telegram, ready to execute various wallet-related commands.
 
 ## Contributions and Enhancement
