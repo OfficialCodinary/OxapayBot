@@ -1,0 +1,34 @@
+{
+  "name": "oxapay-bot",
+  "version": "0.1.0",
+  "description": "An simple oxapay wallet bot",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js",
+    "pm2": "pm2 start main.js --name oxapay-bot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OfficialCodinary/OxapayBot.git"
+  },
+  "keywords": [
+    "Wallet",
+    "oxapay",
+    "grammY",
+    "codinary"
+  ],
+  "author": "ROBBING GAMER",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OfficialCodinary/OxapayBot/issues"
+  },
+  "homepage": "https://github.com/OfficialCodinary/OxapayBot#readme",
+  "dependencies": {
+    "@grammyjs/conversations": "^1.1.2",
+    "dotenv": "^16.3.1",
+    "grammy": "^1.19.3",
+    "mongoose": "^8.0.3",
+    "oxapay": "^0.6.10"
+  }
+}
